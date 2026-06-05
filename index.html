@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin-RPT</title>
+    <title>TOP-PPT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--CONTENEDOR PRINCIPAL-->
+    <main class="contenedor">
+
+        <!--ENCABEZADO / TITULO-->
+        <section class="Encabezado">
+            <h1>PIEDRA, PAPEL O TIJERAS</h1>
+        </section>
+
+        <!-- RONDA -->
+        <section class="Ronda">
+            <h4 id="noRonda"> RONDA 1 </h4>
+        </section>
+
+        <!-- PUNTUACIONES-->
+        <section class="Puntuaciones">
+            <article class="Puntuacion Jugador">
+                <h2> JUGADOR </h2>
+                <h3 id="puntuacionJugador"> 0 </h3>
+            </article>
+
+            <article class="VS">
+                <h2> VS </h2>
+            </article>
+
+            <article class="Puntuacion Computadora">
+                <h2> COMPUTADORA </h2>
+                <h3 id="puntuacionComputadora"> 0 </h3>
+            </article>
+        </section>
+
+        <!-- NOTIFICACIONES -->
+        <Section class="Notificaciones">
+            <h2 id="notificacion"> Selecciona una opcion y presiona continuar </h2>
+        </Section>
+
+        <!-- OPCIONES -->
+         <section class="Opciones">
+            <button id="PIEDRA" value="PIEDRA"> PIEDRA </button>
+            <button id="PAPEL" value="PAPEL"> PAPEL </button>
+            <button Id="TIJERAS" value="TIJERAS"> TIJERAS </button>
+         </section>
+
+        <!-- RESULTADOS -->
+         <section class="Resultados">
+            <article class="Eleccion Jugador">
+                <h2> JUGADOR </h2>
+                <h3 id="EleccionJugador"> - </h3>
+            </article>
+            <div class="separador"></div>
+            <article class="Resultado">
+                <h2> RESULTADO </h2>
+                <h3 id="Resultado"> --- </h3>
+                <h4 id="Descripcion"> - </h4>
+            </article>
+            <div class="separador"></div>
+            <article class="Eleccion Computadora">
+                <h2> COMPUTADORA </h2>
+                <h3 id="EleccionComputadora"> - </h3>
+            </article>
+         </section>
+
+         <!-- Botones -->
+         <section class="Btn">
+            <button id="reiniciar"> REINICIAR </button>
+            <BUtton id="Continuar" disabled> CONTINUAR </BUtton>
+         </section>
+    </main>
+    
+    <footer>
+         <h5 class="pie"> Codificado por RetrooCodee</h5>   
+    </footer>
     <script src="./main.js"></script>
 </body>
 </html>

@@ -1,0 +1,156 @@
+/*GENERAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/*ENCABEZADO*/
+.Encabezado {
+    padding: 20px 20px 10px 20px;
+    font-size: 15px;
+}
+
+/*RONDA*/
+.Ronda {
+    padding: 10px 30px;
+    background-color: rgb(213, 169, 255);
+    border-radius: 15PX;
+
+}
+
+/*Puntuaciones*/
+.Puntuaciones {
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+
+.Puntuacion {
+    border: 3px solid grey;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px grey;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Puntuacion h2 {
+    font-size: 18px;
+}
+
+.Puntuacion h3 {
+    font-size: 30px;
+}
+
+.Jugador h2,
+.Jugador h3 {
+    color: rgb(30, 105, 255);
+}
+
+.Computadora h2,
+.Computadora h3 {
+    color: rgb(255, 30, 30);
+}
+
+.Notificaciones {
+    color: grey;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+/* OPCIONES */
+.Opciones button {
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: green;
+    background-color: rgb(227, 255, 227);
+}
+
+
+button.opcionActivada {
+    border: 3px solid rgb(30, 105, 255);
+    background-color: rgb(212, 226, 255);
+    color: rgb(30, 105, 255);
+}
+
+/*RESULTADOS*/
+
+.Resultados {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0px 5px 10px 0px grey;
+}
+
+.Eleccion h2 {
+    font-size: 18px;
+}
+
+.Eleccion h3 {
+    font-size: 30px;
+}
+
+.Resultado {
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+}
+
+.Resultado h2 {
+    font-size: 18px;
+}
+
+.Eleccion {
+     width: 200px;   
+}
+
+.separador {
+    border: 1px solid grey;
+    height: 50px;
+}
+
+.Btn button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    color: orangered;
+    background-color: white;
+    font-weight: bold;
+}
+
+.pie {
+    margin-top: 30px;
+    color: gray;
+}
